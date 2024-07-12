@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dndmod:steel"
+    }
+  },
+  "result": {
+    "item": "dndmod:steel_block1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dndmod:raw_adamantine_block"
+    }
+  ],
+  "result": {
+    "item": "dndmod:raw_adamantine",
+    "count": 9
+  }
+}

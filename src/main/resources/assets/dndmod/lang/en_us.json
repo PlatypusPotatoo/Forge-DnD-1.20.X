@@ -1,0 +1,10 @@
+{
+  "item.dndmod.steel": "Steel Ingot",
+  "item.dndmod.raw_adamantine": "Raw Adamantine",
+  "item.dndmod.adamantine": "Adamantine Ingot",
+  "block.dndmod.adamantine_block": "Block of Adamantine",
+  "block.dndmod.raw_adamantine_block": "Block of Raw Adamantine",
+  "block.dndmod.steel_block1": "Block of Steel",
+
+  "creativetab.dnd_tab": "DnD Mod"
+}

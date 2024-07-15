@@ -17,7 +17,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ADAMANTINE = ITEMS.register("adamantine",
             () -> new Item(new Item.Properties()));
-
+    public static final RegistryObject<Item> CELESTIAL_CRYSTAL = ITEMS.register("celestial_crystal",
+            () -> new Item(new Item.Properties()));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

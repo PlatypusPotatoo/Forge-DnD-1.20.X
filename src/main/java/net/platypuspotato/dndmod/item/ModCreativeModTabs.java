@@ -25,6 +25,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.CELESTIAL_CRYSTAL.get());
 
                         //Blocks
+                        pOutput.accept(ModBlocks.ADAMANTINE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_ADAMANTINE_ORE.get());
                         pOutput.accept(ModBlocks.ADAMANTINE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_ADAMANTINE_BLOCK.get());
                         pOutput.accept(ModBlocks.STEEL_BLOCK1.get());

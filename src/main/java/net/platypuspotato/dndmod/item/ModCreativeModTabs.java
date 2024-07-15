@@ -17,12 +17,18 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RAW_ADAMANTINE.get()))
                     .title(Component.translatable("creativetab.dnd_tab"))
                     .displayItems((pParameters, pOutput) -> {
+
+                        //Items
                         pOutput.accept(ModItems.ADAMANTINE.get());
                         pOutput.accept(ModItems.RAW_ADAMANTINE.get());
                         pOutput.accept(ModItems.STEEL.get());
+                        pOutput.accept(ModItems.CELESTIAL_CRYSTAL.get());
+
+                        //Blocks
                         pOutput.accept(ModBlocks.ADAMANTINE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_ADAMANTINE_BLOCK.get());
                         pOutput.accept(ModBlocks.STEEL_BLOCK1.get());
+
                     })
                     .build());
     public static void register(IEventBus eventBus) {

@@ -17,5 +17,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dndmod:blocks/adamantine_block"
+  "random_sequence": "dndmod:blocks/raw_adamantine_block"
 }

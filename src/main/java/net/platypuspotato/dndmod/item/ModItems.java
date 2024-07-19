@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.platypuspotato.dndmod.DndMod;
+import net.platypuspotato.dndmod.item.custom.MusicItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -19,6 +20,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CELESTIAL_CRYSTAL = ITEMS.register("celestial_crystal",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LUTE = ITEMS.register("lute",
+            () -> new MusicItem(new Item.Properties()));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

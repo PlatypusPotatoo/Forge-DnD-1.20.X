@@ -9,6 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.platypuspotato.dndmod.DndMod;
 import net.platypuspotato.dndmod.block.ModBlocks;
+import net.platypuspotato.dndmod.item.custom.MusicItem;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -30,6 +31,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.ADAMANTINE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_ADAMANTINE_BLOCK.get());
                         pOutput.accept(ModBlocks.STEEL_BLOCK1.get());
+                        pOutput.accept(ModItems.LUTE.get());
 
                     })
                     .build());

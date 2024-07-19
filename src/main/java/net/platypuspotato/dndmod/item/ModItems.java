@@ -20,6 +20,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CELESTIAL_CRYSTAL = ITEMS.register("celestial_crystal",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOODBERRY = ITEMS.register("goodberry",
+            () -> new Item(new Item.Properties().food(ModFoods.GOODBERRY)));
     public static final RegistryObject<Item> LUTE = ITEMS.register("lute",
             () -> new MusicItem(new Item.Properties()));
     public static void register(IEventBus eventBus) {
